@@ -7,7 +7,7 @@
     "image": "",
     "email": "nathan.schucher@gmail.com",
     "phone": "",
-    "summary": "I am a research engineer at Google Deepmind, working on Gemini.",
+    "summary": "I am a research engineer at Google Deepmind. I work on Gemini post-training and evaluations.",
     "location": {
       "city": "Montreal",
       "countryCode": "CA",
@@ -36,10 +36,10 @@
       "location": "Montreal, Canada",
       "position": "Research Developer",
       "startDate": "2021-01-01",
+      "endDate": "2022-12-01",
       "summary": "Python, Pytorch",
       "highlights": [
-        "Published research on parameter-efficient model adaptations for low-resource semantic parsing",
-        "Trained and fine-tuned LLMs for text-to-sql tasks"
+        "Research on parameter-efficient fine-tuning techniques and applications for code generation."
       ]
     },
     {
@@ -68,15 +68,27 @@
         "Reproduced state-of-the-art deep recurrent machine reading model in TensorFlow",
         "Implemented a tape-based autodiff computation library in JavaScript"
       ]
+    },{
+      "name": "Morgan Stanley",
+      "location": "Montreal, CA",
+      "position": "Software Developer",
+      "startDate": "2015-09-01",
+      "endDate": "2016-08-31",
+      "summary": "Python, Sybase, Autosys",
+      "highlights": [
+        "Analyzed legacy implementation of the NY securities lending P&L reporting process",
+        "Reimplemented process to improve performance and maintainability",
+        "Reduced technical debt and code footprint by 80%, batch processing time from 2 hours to 15 minutes"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "Mila | McGill University",
+      "institution": "Mila & McGill University",
       "area": "Computer Science",
       "studyType": "M. Sc",
       "startDate": "2020-09-01",
-      "endDate": "2022-08-15 (Expected)"
+      "endDate": "2022-12-01"
     },
     {
       "institution": "Dalhousie University",
