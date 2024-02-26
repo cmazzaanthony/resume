@@ -424,8 +424,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   list-style-position: inside;
 }
 
-.columns-2 {
-  columns: 2;
+.columns-1 {
+  columns: 1;
 }
 
 .break-inside-avoid {
@@ -439,6 +439,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.p-9 {
+  padding: 2.25rem;
 }
 
 .px-6 {
@@ -619,32 +623,9 @@ body .icon-parent::before {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-@media print {
-  .print\:mb-3 {
-    margin-bottom: 0.75rem;
-  }
-  .print\:h-letter-col {
-    height: 71.625rem;
-  }
-  .print\:max-w-letter {
-    max-width: 66.40625rem;
-  }
-  .print\:font-normal {
-    font-weight: 400;
-  }
-  .print\:text-black {
-    --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity));
-  }
-}
-
 @media (min-width: 500px) {
   .xsm\:p-8 {
     padding: 2rem;
-  }
-  .xsm\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 }
 
@@ -655,24 +636,17 @@ body .icon-parent::before {
   .sm\:-ml-3 {
     margin-left: -0.75rem;
   }
+  .sm\:columns-2 {
+    columns: 2;
+  }
   .sm\:p-9 {
     padding: 2.25rem;
-  }
-  .sm\:px-9 {
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
   }
 }
 
 @media (min-width: 833px) {
   .md\:mb-11 {
     margin-bottom: 2.75rem;
-  }
-  .md\:h-letter-col {
-    height: 71.625rem;
-  }
-  .md\:max-w-letter {
-    max-width: 66.40625rem;
   }
   .md\:px-16 {
     padding-left: 4rem;

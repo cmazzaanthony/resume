@@ -2,7 +2,7 @@
 {% block title %}Nathan Schucher Resume{% endblock %}
 
 {% macro sectionHeader(name) %}
-  <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-600 print:font-normal">
+  <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-600">
     {{ name }}
   </h2>
 {% endmacro %}
@@ -11,7 +11,7 @@
   <section class="mt-4 first:mt-0">
     <!-- To keep in the same column -->
     <div class="break-inside-avoid">
-      <h2 class="mb-4 font-bold tracking-widest text-sm2 text-slate-400 print:font-normal">
+      <h2 class="mb-4 font-bold tracking-widest text-sm2 text-slate-400">
         {{ name | safe }}
       </h2>
 
@@ -21,61 +21,65 @@
 {% endmacro %}
 
 {% block content %}
-  <div class="md:h-letter-col print:h-letter-col">
-    <div class="px-6 py-4 mx-auto max-w-2xl print:max-w-letter md:max-w-letter xsm:px-8 sm:px-9 md:px-16">
-      <header class="flex items-center mb-8 md:mb-11 print:mb-3">
-        <h1 class="text-[36px] font-semibold text-gray-750 pb-px">
-          {{basics.name}}
-        </h1>
-      </header>
+  <div class="md:h-letter-col">
+    <div class="px-6 mx-auto xsm:p-8 sm:p-9 md:px-16 py-4">
+      <div class="max-w-2xl mx-auto md:col-count-2 col-gap-md col-fill-auto">
+        <header class="flex items-center mb-8 md:mb-11">
+          <h1 class="text-[36px] font-semibold text-gray-750 pb-px">
+            {{basics.name}}
+          </h1>
+        </header>
 
-      <!-- Basics -->
-      <div class="md:col-count-2 print:col-count-2 col-gap-md col-fill-auto">
-        <div class="columns-2">
-          <!-- Summary -->
-          {% call section('HI') %}
-          <p class="leading-tight text-md text-gray-650">
-            {{basics.summary}}
-          </p>
-          {% endcall %}
+        <!-- Basics -->
+        <div class="col-gap-md col-fill-auto">
+          <div class="columns-1 sm:columns-2">
+            <!-- Summary -->
+            {% call section('HI') %}
+            <p class="leading-tight text-md text-gray-650">
+              {{basics.summary}}
+            </p>
+            {% endcall %}
 
-          <!-- Contact -->
-          {% call section('CONTACT') %}
-          <ul class="list-inside pr-3 text-sm">
-            <li class="mt-1.5 leading-normal text-gray-700">
-              <a href="{{basics.website}}" target="_blank" class="group">
-                {{basics.website}}
-                <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-              </a>
-            </li>
-            {%- for profile in basics.profiles %}
+            <!-- Contact -->
+            {% call section('CONTACT') %}
+            <ul class="list-inside pr-3 text-sm">
               <li class="mt-1.5 leading-normal text-gray-700">
-                <a href="{{profile.url}}" class="group">
-                  {{profile.username or profile.url}}
-                  <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                <a href="{{basics.website}}" target="_blank" class="group">
+                  {{basics.website}}
+                  <span class="inline-block text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                 </a>
               </li>
-            {% endfor -%}
-            <li class="mt-1.5 leading-normal text-gray-700">
-              {{ basics.email}}
-            </li>
-            <li class="mt-1.5 leading-normal text-gray-700">
-              {{ basics.phone }}
-            </li>
-          </ul>
-          {% endcall %}
+              {%- for profile in basics.profiles %}
+                <li class="mt-1.5 leading-normal text-gray-700">
+                  <a href="{{profile.url}}" class="group">
+                    {{profile.username or profile.url}}
+                    <span class="inline-block text-gray-550 font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                  </a>
+                </li>
+              {% endfor -%}
+              <li class="mt-1.5 leading-normal text-gray-700">
+                {{ basics.email}}
+              </li>
+              <li class="mt-1.5 leading-normal text-gray-700">
+                {{ basics.phone }}
+              </li>
+            </ul>
+            {% endcall %}
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Experience -->
-    <div class="px-6 mx-auto max-w-2xl print:max-w-letter md:max-w-letter xsm:p-8 sm:p-9 md:px-16 bg-gray-50">
-      <div class="md:col-count-2 print:col-count-2 col-gap-md col-fill-auto">
+    <div class="px-6 mx-auto p-9 md:px-16 bg-gray-50">
+      <div class="max-w-2xl mx-auto md:col-count-2 col-gap-md col-fill-auto">
         {% call section('EXPERIENCE') %}
         {%- for job in work %}
           <section class="mb-4.5 break-inside-avoid">
             <header>
-              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">{{ job.position }} <span class="text-gray-400">at</span> {{job.name}}</h3>
+              <h3 class="text-lg font-semibold text-gray-700 leading-snugish">{{ job.position }}
+                <span class="text-gray-400">at</span>
+                {{job.name}}</h3>
               <p class="leading-normal text-md text-gray-400">{{job.startDate}} – {{job.endDate or "present"}} | {{ job.location }}
               </p>
             </header>
@@ -97,7 +101,10 @@
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                {{ degree.studyType }} {{ degree.area }} <span class="text-gray-400">at</span> {{ degree.institution }}
+                {{ degree.studyType }}
+                {{ degree.area }}
+                <span class="text-gray-400">at</span>
+                {{ degree.institution }}
               </h3>
               <p class="leading-normal text-md text-gray-400">
                 {{ degree.startDate }} – {{ degree.endDate }}
@@ -113,11 +120,9 @@
               <a href="{{article.url}}" target="_blank" class="text-lg font-semibold text-gray-700 leading-snugish">
                 {{ article.name }}
               </a>
-              <p class="leading-normal text-md text-gray-400">
-                {{ article.publisher }}
-              </p>
+              <p class="leading-normal text-md text-gray-400"></p>
               <p class="leading-normal text-sm text-gray-700">
-                {{ article.authors }}
+                {{ article.publisher }}. {{ article.authors }}
               </p>
             </header>
           </section>

@@ -39,7 +39,7 @@
       "endDate": "2022-12-01",
       "summary": "Python, Pytorch",
       "highlights": [
-        "Research on parameter-efficient fine-tuning techniques and applications for code generation."
+        "Parameter-efficient fine-tuning for code generation and low-resource semantic parsing"
       ]
     },
     {
@@ -68,18 +68,6 @@
         "Reproduced state-of-the-art deep recurrent machine reading model in TensorFlow",
         "Implemented a tape-based autodiff computation library in JavaScript"
       ]
-    },{
-      "name": "Morgan Stanley",
-      "location": "Montreal, CA",
-      "position": "Software Developer",
-      "startDate": "2015-09-01",
-      "endDate": "2016-08-31",
-      "summary": "Python, Sybase, Autosys",
-      "highlights": [
-        "Analyzed legacy implementation of the NY securities lending P&L reporting process",
-        "Reimplemented process to improve performance and maintainability",
-        "Reduced technical debt and code footprint by 80%, batch processing time from 2 hours to 15 minutes"
-      ]
     }
   ],
   "education": [
@@ -106,6 +94,18 @@
     }
   ],
   "publications": [
+    {
+      "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+      "authors": "Gemini Team.",
+      "publisher": "2024",
+      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf"
+    },
+    {
+      "name": "Gemini: A Family of Highly Capable Multimodal Models",
+      "authors": "Gemini Team.",
+      "publisher": "2023",
+      "url": "https://arxiv.org/abs/2312.11805"
+    },
     {
       "name": "The Power of Prompt Tuning for Low-Resource Semantic Parsing",
       "authors": "Nathan Schucher, Siva Reddy, Harm de Vries",
