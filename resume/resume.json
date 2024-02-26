@@ -68,40 +68,6 @@
         "Reproduced state-of-the-art deep recurrent machine reading model in TensorFlow",
         "Implemented a tape-based autodiff computation library in JavaScript"
       ]
-    },{
-      "name": "Morgan Stanley",
-      "location": "Montreal, CA",
-      "position": "Summer Technology Analyst",
-      "startDate": "2014-05-01",
-      "endDate": "2014-08-31",
-      "summary": "Python, Sybase, Autosys",
-      "highlights": [
-        "Analyzed legacy implementation of the NY securities lending P&L reporting process",
-        "Reimplemented process to improve performance and maintainability",
-        "Reduced technical debt and code footprint by 80%, batch processing time from 2 hours to 15 minutes"
-      ]
-    },{
-      "name": "Department of Fisheries & Oceans",
-      "location": "Halifax, CA",
-      "position": "Co-op Research Developer",
-      "startDate": "2014-01-01",
-      "endDate": "2014-04-31",
-      "summary": "Matlab",
-      "highlights": [
-        "Implemented implemented oceanographic numerical computation methods from oceanographic research papers",
-        "Implemented eddy detection algorithms for volumetric time series datasets in a compute and memory limited environment"
-      ]
-    }, {
-      "name": "General Dynamics Canada",
-      "location": "Halifax, Canada",
-      "position": "Co-op Software Developer",
-      "startDate": "2013-05-01",
-      "endDate": "2013-08-31",
-      "summary": "Java, C++, CORBA",
-      "highlights": [
-        "Built components for submarine acoustic signal processing displays",
-        "Performed technical and non-technical demonstrations for government representatives"
-      ]
     }
   ],
   "education": [
