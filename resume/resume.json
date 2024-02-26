@@ -1,0 +1,175 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Nathan Schucher",
+    "label": "Research Engineer",
+    "website": "http://nathanschucher.com",
+    "image": "",
+    "email": "nathan.schucher@gmail.com",
+    "phone": "",
+    "summary": "I am a research engineer at Google Deepmind, working on Gemini.",
+    "location": {
+      "city": "Montreal",
+      "countryCode": "CA",
+      "region": "Quebec"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nathan-schucher/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Google Deepmind",
+      "location": "London, United Kingdom",
+      "position": "Research Engineer",
+      "startDate": "2023-01-01",
+      "summary": "Jax, Haiku, Flax",
+      "highlights": [
+        "Gemini 1.5 Pro Core Contributor: data, post-training, and model evaluations"
+      ]
+    },
+    {
+      "name": "ServiceNow Research",
+      "location": "Montreal, Canada",
+      "position": "Research Developer",
+      "startDate": "2021-01-01",
+      "summary": "Python, Pytorch",
+      "highlights": [
+        "Published research on parameter-efficient model adaptations for low-resource semantic parsing",
+        "Trained and fine-tuned LLMs for text-to-sql tasks"
+      ]
+    },
+    {
+      "name": "Element AI",
+      "location": "Montreal, Canada",
+      "position": "AI Developer",
+      "startDate": "2017-05-01",
+      "endDate": "2020-12-31",
+      "summary": "ES6, Python, Postgres, Kubernetes, Pytorch",
+      "highlights": [
+        "Implemented fast mixed-precision multinode training with infiniband for fast training of large language models",
+        "Lead development of distributed hyperparameter search system used by dozens of researchers for large-scale experimentation",
+        "Built a visualization and experiment management platform for analyzing of thousands of model training runs",
+        "Analysis of multimodal clustering in affine transformation parameters for VQA models"
+      ]
+    },
+    {
+      "name": "Recurse Center",
+      "location": "NYC, US",
+      "position": "Participant",
+      "startDate": "2016-10-01",
+      "endDate": "2016-12-31",
+      "summary": "Tensorflow 1, ES6",
+      "highlights": [
+        "Attended a 12-week coding retreat focused on self-directed, project-based learning",
+        "Reproduced state-of-the-art deep recurrent machine reading model in TensorFlow",
+        "Implemented a tape-based autodiff computation library in JavaScript"
+      ]
+    },{
+      "name": "Morgan Stanley",
+      "location": "Montreal, CA",
+      "position": "Summer Technology Analyst",
+      "startDate": "2014-05-01",
+      "endDate": "2014-08-31",
+      "summary": "Python, Sybase, Autosys",
+      "highlights": [
+        "Analyzed legacy implementation of the NY securities lending P&L reporting process",
+        "Reimplemented process to improve performance and maintainability",
+        "Reduced technical debt and code footprint by 80%, batch processing time from 2 hours to 15 minutes"
+      ]
+    },{
+      "name": "Department of Fisheries & Oceans",
+      "location": "Halifax, CA",
+      "position": "Co-op Research Developer",
+      "startDate": "2014-01-01",
+      "endDate": "2014-04-31",
+      "summary": "Matlab",
+      "highlights": [
+        "Implemented implemented oceanographic numerical computation methods from oceanographic research papers",
+        "Implemented eddy detection algorithms for volumetric time series datasets in a compute and memory limited environment"
+      ]
+    }, {
+      "name": "General Dynamics Canada",
+      "location": "Halifax, Canada",
+      "position": "Co-op Software Developer",
+      "startDate": "2013-05-01",
+      "endDate": "2013-08-31",
+      "summary": "Java, C++, CORBA",
+      "highlights": [
+        "Built components for submarine acoustic signal processing displays",
+        "Performed technical and non-technical demonstrations for government representatives"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Mila | McGill University",
+      "area": "Computer Science",
+      "studyType": "M. Sc",
+      "startDate": "2020-09-01",
+      "endDate": "2022-08-15 (Expected)"
+    },
+    {
+      "institution": "Dalhousie University",
+      "area": "Computer Science and Mathematics Co-op",
+      "studyType": "B. Sc",
+      "startDate": "2011-09-01",
+      "endDate": "2015-08-01"
+    },
+    {
+      "institution": "University of King's College Halifax",
+      "area": "Foundation Year Liberal Arts Programme",
+      "studyType": "",
+      "startDate": "2011-09-01",
+      "endDate": "2012-05-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "The Power of Prompt Tuning for Low-Resource Semantic Parsing",
+      "authors": "Nathan Schucher, Siva Reddy, Harm de Vries",
+      "publisher": "ACL 2022",
+      "url": "https://arxiv.org/abs/2110.08525"
+    },
+    {
+      "name": "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models",
+      "authors": "Torsten Scholak, Nathan Schucher, Dzmitry Bahdanau",
+      "publisher": "EMNLP 2021",
+      "url": "https://arxiv.org/abs/2109.05093"
+    },
+    {
+      "name": "Feature-wise transformations",
+      "authors": "Vincent Dumoulin, Ethan Perez, Nathan Schucher, Florian Strub, Harm de Vries, Aaron Courville, Yoshua Bengio",
+      "publisher": "Distill 2018",
+      "url": "https://distill.pub/2018/feature-wise-transformations/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Full-stack developer",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "Python",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Research Developer",
+      "keywords": [
+        "Pytorch",
+        "Tensorflow"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
