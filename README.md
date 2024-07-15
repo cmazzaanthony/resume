@@ -8,4 +8,6 @@ npm install
 npm run start
 ```
 
+Edit resume content in `index.json` and the layout and styling in `index.njk`.
+
 Then open http://localhost:8080 and Save as PDF.
