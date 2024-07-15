@@ -472,11 +472,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .font-semibold {
   font-weight: 600;
 }
@@ -621,6 +616,12 @@ body .icon-parent::before {
 .group:hover .group-hover\:text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+@media print {
+  .print\:columns-2 {
+    columns: 2;
+  }
 }
 
 @media (min-width: 500px) {

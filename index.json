@@ -7,7 +7,7 @@
     "image": "",
     "email": "nathan.schucher@gmail.com",
     "phone": "",
-    "summary": "I am a research engineer at Google Deepmind. I work on Gemini post-training and evaluations.",
+    "summary": "I am a Research Engineer at Google Deepmind. I work on Gemini post-training and evaluation infrastructure.",
     "location": {
       "city": "Montreal",
       "countryCode": "CA",
@@ -28,7 +28,8 @@
       "startDate": "2023-01-01",
       "summary": "Jax, Haiku, Flax",
       "highlights": [
-        "Gemini 1.5 Pro Core Contributor: data, post-training, and model evaluations"
+        "Gemini 1.5 core: long-context data and evaluations",
+        "Gemini evaluation infrastructure for pre and post-training"
       ]
     },
     {
