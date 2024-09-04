@@ -350,6 +350,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 /* purgecss start ignore */
 /* purgecss end ignore */
 
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -401,6 +409,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .max-w-2xl {

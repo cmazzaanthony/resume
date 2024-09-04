@@ -1,129 +1,99 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Nathan Schucher",
-    "label": "Research Engineer",
-    "website": "http://nathanschucher.com",
+    "name": "Cody Mazza-Anthony",
+    "label": "Staff Machine Learning Engineer",
+    "website": "https://codymazzaanthony.com/",
     "image": "",
-    "email": "nathan.schucher@gmail.com",
+    "email": "cmazzaanthony@gmail.com",
     "phone": "",
-    "summary": "I am a Research Engineer at Google Deepmind. I work on Gemini post-training and evaluation infrastructure.",
+    "summary": "I am a Staff Machine Learning Engineer at Shopify. I work on Large Language Models.",
     "location": {
-      "city": "Montreal",
+      "city": "Toronto",
       "countryCode": "CA",
-      "region": "Quebec"
+      "region": "Ontario"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "url": "https://www.linkedin.com/in/nathan-schucher/"
+        "url": "https://www.linkedin.com/in/cody-mazza-anthony"
       }
     ]
   },
   "work": [
     {
-      "name": "Google Deepmind",
-      "location": "London, United Kingdom",
-      "position": "Research Engineer",
-      "startDate": "2023-01-01",
+      "name": "Shopify",
+      "location": "Toronto, Canada",
+      "position": "Staff Machine Learning Engineer",
+      "startDate": "2020-08-01",
       "summary": "Jax, Haiku, Flax",
       "highlights": [
-        "Gemini 1.5 core: long-context data and evaluations",
-        "Gemini evaluation infrastructure for pre and post-training"
+        "Technical lead for Shopify's AI assistant, Sidekick.",
+        "Developed SOTA data generation techniques for fine-tuning LLMs.",
+        "Extensive experience with pre-training and post-training (LoRa, DPO, RLHF) of open-source LLMs.",
+        "Constructed evaluation framework for LLMs."
       ]
     },
     {
-      "name": "ServiceNow Research",
+      "name": "Squarepoint Capital",
       "location": "Montreal, Canada",
-      "position": "Research Developer",
-      "startDate": "2021-01-01",
-      "endDate": "2022-12-01",
+      "position": "Quantitative Researcher/Engineer",
+      "startDate": "2016-07-01",
+      "endDate": "2020-08-01",
       "summary": "Python, Pytorch",
       "highlights": [
-        "Parameter-efficient fine-tuning for code generation and low-resource semantic parsing"
+        "Supervised 3 research engineers in developing an Auto-ML framework which includes exploratory data analysis, model fitting, hyperparameter optimization and model interpretation.",
+        "Designed and implemented objective functions for portfolio optimization.",
+        "Developed regression model for a long-short equity strategy surpassing previous benchmarks by 4%.",
+        "Constructed an algorithm trading framework for volatility products."
       ]
     },
     {
-      "name": "Element AI",
+      "name": "Morgan Stanley",
       "location": "Montreal, Canada",
-      "position": "AI Developer",
-      "startDate": "2017-05-01",
-      "endDate": "2020-12-31",
+      "position": "Engineer",
+      "startDate": "2014-05-01",
+      "endDate": "2020-08-01",
       "summary": "ES6, Python, Postgres, Kubernetes, Pytorch",
       "highlights": [
-        "Implemented fast mixed-precision multinode training with infiniband for fast training of large language models",
-        "Lead development of distributed hyperparameter search system used by dozens of researchers for large-scale experimentation",
-        "Built a visualization and experiment management platform for analyzing of thousands of model training runs",
-        "Analysis of multimodal clustering in affine transformation parameters for VQA models"
+        "Developed risk infrastructure and distributed computing grid for fixed income derivative products.",
+        "Implemented shock and stress testing for fixed income derivatives.",
+        "Delivered optimal Java server reporting engine to the Bank Deposits Team that manages $140 Billion in firmwide deposits."
       ]
-    },
-    {
-      "name": "Recurse Center",
-      "location": "NYC, US",
-      "position": "Participant",
-      "startDate": "2016-10-01",
-      "endDate": "2016-12-31",
-      "summary": "Tensorflow 1, ES6",
-      "highlights": [
-        "Attended a 12-week coding retreat focused on self-directed, project-based learning",
-        "Reproduced state-of-the-art deep recurrent machine reading model in TensorFlow",
-        "Implemented a tape-based autodiff computation library in JavaScript"
-      ]
-    }
+      }
   ],
   "education": [
     {
       "institution": "Mila & McGill University",
-      "area": "Computer Science",
-      "studyType": "M. Sc",
+      "area": "Machine Learning",
+      "studyType": "M. Eng",
       "startDate": "2020-09-01",
       "endDate": "2022-12-01"
     },
     {
-      "institution": "Dalhousie University",
-      "area": "Computer Science and Mathematics Co-op",
-      "studyType": "B. Sc",
-      "startDate": "2011-09-01",
-      "endDate": "2015-08-01"
-    },
-    {
-      "institution": "University of King's College Halifax",
-      "area": "Foundation Year Liberal Arts Programme",
-      "studyType": "",
-      "startDate": "2011-09-01",
-      "endDate": "2012-05-01"
+      "institution": "McGill University",
+      "area": "Computer Science and Biology",
+      "studyType": "B. Sc"
     }
   ],
   "publications": [
     {
-      "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
-      "authors": "Gemini Team.",
-      "publisher": "2024",
-      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf"
-    },
-    {
-      "name": "Gemini: A Family of Highly Capable Multimodal Models",
-      "authors": "Gemini Team.",
+      "name": "Learning Gaussian Graphical Models With Ordered Weighted L1 Regularization",
+      "authors": "C. Mazza-Anthony, B. Mazoure, and M. Coates.",
       "publisher": "2023",
-      "url": "https://arxiv.org/abs/2312.11805"
+      "url": "https://arxiv.org/pdf/1906.02719"
     },
     {
-      "name": "The Power of Prompt Tuning for Low-Resource Semantic Parsing",
-      "authors": "Nathan Schucher, Siva Reddy, Harm de Vries",
-      "publisher": "ACL 2022",
-      "url": "https://arxiv.org/abs/2110.08525"
+      "name": "Structured sparsity and precision matrix estimation",
+      "authors": "C. Mazza-Anthony",
+      "publisher": "2020",
+      "url": "https://escholarship.mcgill.ca/downloads/r494vq27k"
     },
     {
-      "name": "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models",
-      "authors": "Torsten Scholak, Nathan Schucher, Dzmitry Bahdanau",
-      "publisher": "EMNLP 2021",
-      "url": "https://arxiv.org/abs/2109.05093"
-    },
-    {
-      "name": "Feature-wise transformations",
-      "authors": "Vincent Dumoulin, Ethan Perez, Nathan Schucher, Florian Strub, Harm de Vries, Aaron Courville, Yoshua Bengio",
-      "publisher": "Distill 2018",
-      "url": "https://distill.pub/2018/feature-wise-transformations/"
+      "name": "Investigating mutations to reduce huntingtin aggregation by increasing Htt-N-terminal stability and weakening interactions with PolyQ domain",
+      "authors": "M. Smaoui, C. Mazza-Anthony, and J Waldispühl",
+      "publisher": "2016",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2016/6247867"
     }
   ],
   "skills": [
